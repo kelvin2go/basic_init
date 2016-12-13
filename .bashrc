@@ -16,6 +16,9 @@ alias ll='ls -la'
 alias ga='git add'
 alias gd='git diff'
 alias gs='git status'
+alias gco='git checkout'
+alias gcom='git commit -m'
+
 
 ## get rid of command not found ##
 alias cd..='cd ..'
