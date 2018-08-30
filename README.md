@@ -24,4 +24,4 @@ brew install yarn --without-node
 ## netease music https://music.163.com/
 
 # Settings 
-## https://code.visualstudio.com/docs/editor/command-line
+## https://code.visualstudio.com/docs/setup/mac
