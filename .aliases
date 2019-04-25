@@ -1,0 +1,58 @@
+alias ggp='cd ~/Projects/'
+alias ggv='cd ~/Projects/gogovan'
+alias ggw='cd ~/Projects/gogovan-web-template'
+alias pyhttp='python -m SimpleHTTPServer 8000'
+alias ls='ls -G'
+alias ll='ls -la'
+
+## git alias
+alias ga='git add'
+alias gd='git diff'
+alias gs='git status'
+alias gco='git checkout'
+alias gcom='git commit -m'
+
+alias devweb='ssh ubiqconn@172.16.3.65'
+alias devmqtt='ssh ubiqconn@172.16.3.64'
+alias devapi='ssh ubiqconn@172.16.3.66'
+alias devdevice='ssh ubiqconn@172.16.3.2'
+
+alias prodmqtt="ssh kelvin_ho@35.234.39.182"
+alias prodweb="ssh kelvin_ho@35.229.166.169"
+alias prodapi="ssh kelvin_ho@35.201.217.41"
+alias proddevice="ssh kelvin_ho@104.155.205.54"
+
+alias pa="php artisan"
+alias pas="php artisan serve"
+
+## get rid of command not found ##
+alias cd..='cd ..'
+
+## a quick way to get out of current directory ##
+alias ..='cd ..'
+alias ...='cd ../../../'
+alias ....='cd ../../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+
+## Colorize the grep command output for ease of use (good for log files)##
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+alias diff='colordiff'
+
+# confirmation #
+alias mv='mv -i'
+alias cp='cp -i'
+alias ln='ln -i'
+
+# Parenting changing perms on / #
+alias chown='chown --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'
+
+# become root #
+alias root='sudo -i'
+alias su='sudo -i'
